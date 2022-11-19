@@ -1,22 +1,30 @@
 <!doctype html>
 <!-- If multi-language site, reconsider usage of html lang declaration here. -->
-<html lang="en"> 
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <title>About Page</title>
   <!-- View-port Basics: http://mzl.la/VYREaP -->
-  <!-- This meta tag is used for mobile device to display the page without any zooming,
-       so how much the device is able to fit on the screen is what's shown initially. 
-       Remove comments from this tag, when you want to apply media queries to the website. -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <!-- Place favicon.ico in the root directory: mathiasbynens.be/notes/touch-icons -->
   <link rel="shortcut icon" href="favicon.ico" />
   <!--font-awesome link for icons-->
-  <link rel="stylesheet" media="screen" href="assets/vendor/font-awesome/css/all.min.css" >
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" media="screen" href="assets/vendor/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
-  <link rel="stylesheet" media="screen" href="assets/css/style.css" >
+  <link rel="stylesheet" media="screen" href="assets/css/style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -24,23 +32,543 @@
   <div class="container">
     <!--header section start-->
     <header>
-      
+      <div class="wrapper">
+        <h1 class="logo">
+          <a href="#FIXME" class="logo-link" title="Woox">
+            <img src="assets/images/logo.png" alt="WoOx">
+          </a>
+        </h1>
+        <div class="hamburger">
+          <span class="bar bar1">bar</span>
+          <span class="bar bar2">bar</span>
+          <span class="bar bar3">bar</span>
+        </div>
+        <nav class="navbar">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="index.html" class="nav-link" title="Home">Home</a></li>
+            <li class="nav-item"><a href="About.html" class="nav-link active" title="About">About</a></li>
+            <li class="nav-item"><a href="#FIXME" class="nav-link" title="Deals">Deals</a></li>
+            <li class="nav-item"><a href="Reservation.html" class="nav-link" title="Reservation">Reservation</a></li>
+            <li class="nav-item"><a href="#FIXME" class="nav-link" title="Book Yours">Book Yours</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <!--header section start-->
+    <!--header section end-->
     <!--main section start-->
     <main>
-
+      <!-- banner section start here -->
+      <section class="about-banner">
+        <div class="wrapper">
+          <span class="prefered">explore our country</span>
+          <h2 class="heading">Welcome To Caribbean</h2>
+          <p class="para">Lorem ipsum dolor sit amet, consecteture adipiscing elit, sed do eiusmad tempor incididunt
+            uttersi labore et dolore magna aliqua is ispum suspendisse ultrices gravida</p>
+          <div class="discover-ctrl">
+            <a href="#FIXME" class="discover-btn">Discover More</a>
+          </div>
+        </div>
+      </section>
+      <!-- banner section end here -->
+      <!-- cities section strt here -->
+      <section class="cities">
+        <div class="wrapper">
+          <div class="city-content">
+            <div class="control-wrap">
+              <h3 class="city-heading">Caribbean's <span>Cities & Towns</span> </h3>
+            </div>
+            <ul class="city-list">
+              <li class="city-item">
+                <figure class="city-fig">
+                  <img src="assets/images/cities-01.jpg" alt="Havana">
+                  <figcaption>Havana</figcaption>
+                </figure>
+              </li>
+              <li class="city-item">
+                <figure class="city-fig">
+                  <img src="assets/images/cities-02.jpg" alt="Kingstone">
+                  <figcaption>Kingstone</figcaption>
+                </figure>
+              </li>
+              <li class="city-item">
+                <figure class="city-fig">
+                  <img src="assets/images/cities-03.jpg" alt="George Town">
+                  <figcaption>George Town</figcaption>
+                </figure>
+              </li>
+              <li class="city-item">
+                <figure class="city-fig">
+                  <img src="assets/images/cities-04.jpg" alt="Santo Domingo">
+                  <figcaption>Santo Domingo</figcaption>
+                </figure>
+              </li>
+              <li class="city-item">
+                <figure class="city-fig">
+                  <img src="assets/images/cities-01.jpg" alt="Havana">
+                  <figcaption>Havana</figcaption>
+                </figure>
+              </li>
+              <li class="city-item">
+                <figure class="city-fig">
+                  <img src="assets/images/cities-02.jpg" alt="Kingstone">
+                  <figcaption>Kingstone</figcaption>
+                </figure>
+              </li>
+              <li class="city-item">
+                <figure class="city-fig">
+                  <img src="assets/images/cities-03.jpg" alt="George Town">
+                  <figcaption>George Town</figcaption>
+                </figure>
+              </li>
+              <li class="city-item">
+                <figure class="city-fig">
+                  <img src="assets/images/cities-04.jpg" alt="Santo Domingo">
+                  <figcaption>Santo Domingo</figcaption>
+                </figure>
+              </li>
+              <li class="city-item">
+                <figure class="city-fig">
+                  <img src="assets/images/cities-01.jpg" alt="Havana">
+                  <figcaption>Havana</figcaption>
+                </figure>
+              </li>
+              <li class="city-item">
+                <figure class="city-fig">
+                  <img src="assets/images/cities-02.jpg" alt="Kingstone">
+                  <figcaption>Kingstone</figcaption>
+                </figure>
+              </li>
+              <li class="city-item">
+                <figure class="city-fig">
+                  <img src="assets/images/cities-03.jpg" alt="George Town">
+                  <figcaption>George Town</figcaption>
+                </figure>
+              </li>
+              <li class="city-item">
+                <figure class="city-fig">
+                  <img src="assets/images/cities-04.jpg" alt="Santo Domingo">
+                  <figcaption>Santo Domingo</figcaption>
+                </figure>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- cities section end here -->
+      <!-- offer section start here -->
+      <section class="offer">
+        <div class="wrapper">
+          <div class="offer-content">
+            <h3 class="offer-heading">Best Weekly Offer In Each City</h3>
+            <p class="offer-description">Lorem ipsum dolor sit amet, consecteture adipiscing elit, sed do eiusmad tempor
+              incididunt ut labore</p>
+          </div>
+          <ul class="city-slide">
+            <li class="city-slide-item">
+              <figure>
+                <img src="assets/images/offers-01.jpg" alt="Havana">
+              </figure>
+              <div class="slide-content">
+                <div class="city-name">
+                  <div class="check">
+                    <h4 class="sub-heading">Havana</h4>
+                    <span class="person-icon font_icon">234 Check Ins</span>
+                  </div>
+                  <div class="city-price">
+                    <span class="cost">$420 <span>/person</span></span>
+                  </div>
+                </div>
+                <ul class="deal-list">
+                  <li class="deal-sub-heading">
+                    <h6>Deal Includes:</h6>
+                  </li>
+                  <li class="deal-item left-icon car font_icon">5 Days Trip <span> Hotel Included</span></li>
+                  <li class="deal-item plane font_icon">Airoplane Bill Included</li>
+                  <li class="deal-item calender font_icon">Daily Places Visit</li>
+                </ul>
+                <div class="deal-btn">
+                  <a href="" class="deal-link" title="Make A Reservation">Make A Reservation</a>
+                </div>
+              </div>
+            </li>
+            <li class="city-slide-item">
+              <figure>
+                <img src="assets/images/offers-02.jpg" alt="Havana">
+              </figure>
+              <div class="slide-content">
+                <div class="city-name">
+                  <div class="check">
+                    <h4 class="sub-heading">Kingstone</h4>
+                    <span class="person-icon font_icon">234 Check Ins</span>
+                  </div>
+                  <div class="city-price">
+                    <span class="cost">$420 <span>/person</span></span>
+                  </div>
+                </div>
+                <ul class="deal-list">
+                  <li class="deal-sub-heading">
+                    <h6>Deal Includes:</h6>
+                  </li>
+                  <li class="deal-item left-icon car font_icon">5 Days Trip <span> Hotel Included</span></li>
+                  <li class="deal-item plane font_icon">Airoplane Bill Included</li>
+                  <li class="deal-item calender font_icon">Daily Places Visit</li>
+                </ul>
+                <div class="deal-btn">
+                  <a href="" class="deal-link" title="Make A Reservation">Make A Reservation</a>
+                </div>
+              </div>
+            </li>
+            <li class="city-slide-item">
+              <figure>
+                <img src="assets/images/offers-03.jpg" alt="Havana">
+              </figure>
+              <div class="slide-content">
+                <div class="city-name">
+                  <div class="check">
+                    <h4 class="sub-heading">George T</h4>
+                    <span class="person-icon font_icon">234 Check Ins</span>
+                  </div>
+                  <div class="city-price">
+                    <span class="cost">$420 <span>/person</span></span>
+                  </div>
+                </div>
+                <ul class="deal-list">
+                  <li class="deal-sub-heading">
+                    <h6>Deal Includes:</h6>
+                  </li>
+                  <li class="deal-item left-icon car font_icon">5 Days Trip <span> Hotel Included</span></li>
+                  <li class="deal-item plane font_icon">Airoplane Bill Included</li>
+                  <li class="deal-item calender font_icon">Daily Places Visit</li>
+                </ul>
+                <div class="deal-btn">
+                  <a href="" class="deal-link" title="Make A Reservation">Make A Reservation</a>
+                </div>
+              </div>
+            </li>
+            <li class="city-slide-item">
+              <figure>
+                <img src="assets/images/offers-01.jpg" alt="Havana">
+              </figure>
+              <div class="slide-content">
+                <div class="city-name">
+                  <div class="check">
+                    <h4 class="sub-heading">Havana</h4>
+                    <span class="person-icon font_icon">234 Check Ins</span>
+                  </div>
+                  <div class="city-price">
+                    <span class="cost">$420 <span>/person</span></span>
+                  </div>
+                </div>
+                <ul class="deal-list">
+                  <li class="deal-sub-heading">
+                    <h6>Deal Includes:</h6>
+                  </li>
+                  <li class="deal-item left-icon car font_icon">5 Days Trip <span> Hotel Included</span></li>
+                  <li class="deal-item plane font_icon">Airoplane Bill Included</li>
+                  <li class="deal-item calender font_icon">Daily Places Visit</li>
+                </ul>
+                <div class="deal-btn">
+                  <a href="" class="deal-link" title="Make A Reservation">Make A Reservation</a>
+                </div>
+              </div>
+            </li>
+            <li class="city-slide-item">
+              <figure>
+                <img src="assets/images/offers-02.jpg" alt="Havana">
+              </figure>
+              <div class="slide-content">
+                <div class="city-name">
+                  <div class="check">
+                    <h4 class="sub-heading">Kingstone</h4>
+                    <span class="person-icon font_icon">234 Check Ins</span>
+                  </div>
+                  <div class="city-price">
+                    <span class="cost">$420 <span>/person</span></span>
+                  </div>
+                </div>
+                <ul class="deal-list">
+                  <li class="deal-sub-heading">
+                    <h6>Deal Includes:</h6>
+                  </li>
+                  <li class="deal-item left-icon car font_icon">5 Days Trip <span> Hotel Included</span></li>
+                  <li class="deal-item plane font_icon">Airoplane Bill Included</li>
+                  <li class="deal-item calender font_icon">Daily Places Visit</li>
+                </ul>
+                <div class="deal-btn">
+                  <a href="" class="deal-link" title="Make A Reservation">Make A Reservation</a>
+                </div>
+              </div>
+            </li>
+            <li class="city-slide-item">
+              <figure>
+                <img src="assets/images/offers-03.jpg" alt="Havana">
+              </figure>
+              <div class="slide-content">
+                <div class="city-name">
+                  <div class="check">
+                    <h4 class="sub-heading">George T</h4>
+                    <span class="person-icon font_icon">234 Check Ins</span>
+                  </div>
+                  <div class="city-price">
+                    <span class="cost">$420 <span>/person</span></span>
+                  </div>
+                </div>
+                <ul class="deal-list">
+                  <li class="deal-sub-heading">
+                    <h6>Deal Includes:</h6>
+                  </li>
+                  <li class="deal-item left-icon car font_icon">5 Days Trip <span> Hotel Included</span></li>
+                  <li class="deal-item plane font_icon">Airoplane Bill Included</li>
+                  <li class="deal-item calender font_icon">Daily Places Visit</li>
+                </ul>
+                <div class="deal-btn">
+                  <a href="" class="deal-link" title="Make A Reservation">Make A Reservation</a>
+                </div>
+              </div>
+            </li>
+            <li class="city-slide-item">
+              <figure>
+                <img src="assets/images/offers-01.jpg" alt="Havana">
+              </figure>
+              <div class="slide-content">
+                <div class="city-name">
+                  <div class="check">
+                    <h4 class="sub-heading">Havana</h4>
+                    <span class="person-icon font_icon">234 Check Ins</span>
+                  </div>
+                  <div class="city-price">
+                    <span class="cost">$420 <span>/person</span></span>
+                  </div>
+                </div>
+                <ul class="deal-list">
+                  <li class="deal-sub-heading">
+                    <h6>Deal Includes:</h6>
+                  </li>
+                  <li class="deal-item left-icon car font_icon">5 Days Trip <span> Hotel Included</span></li>
+                  <li class="deal-item plane font_icon">Airoplane Bill Included</li>
+                  <li class="deal-item calender font_icon">Daily Places Visit</li>
+                </ul>
+                <div class="deal-btn">
+                  <a href="" class="deal-link" title="Make A Reservation">Make A Reservation</a>
+                </div>
+              </div>
+            </li>
+            <li class="city-slide-item">
+              <figure>
+                <img src="assets/images/offers-02.jpg" alt="Havana">
+              </figure>
+              <div class="slide-content">
+                <div class="city-name">
+                  <div class="check">
+                    <h4 class="sub-heading">Kingstone</h4>
+                    <span class="person-icon font_icon">234 Check Ins</span>
+                  </div>
+                  <div class="city-price">
+                    <span class="cost">$420 <span>/person</span></span>
+                  </div>
+                </div>
+                <ul class="deal-list">
+                  <li class="deal-sub-heading">
+                    <h6>Deal Includes:</h6>
+                  </li>
+                  <li class="deal-item left-icon car font_icon">5 Days Trip <span> Hotel Included</span></li>
+                  <li class="deal-item plane font_icon">Airoplane Bill Included</li>
+                  <li class="deal-item calender font_icon">Daily Places Visit</li>
+                </ul>
+                <div class="deal-btn">
+                  <a href="" class="deal-link" title="Make A Reservation">Make A Reservation</a>
+                </div>
+              </div>
+            </li>
+            <li class="city-slide-item">
+              <figure>
+                <img src="assets/images/offers-03.jpg" alt="Havana">
+              </figure>
+              <div class="slide-content">
+                <div class="city-name">
+                  <div class="check">
+                    <h4 class="sub-heading">George T</h4>
+                    <span class="person-icon font_icon">234 Check Ins</span>
+                  </div>
+                  <div class="city-price">
+                    <span class="cost">$420 <span>/person</span></span>
+                  </div>
+                </div>
+                <ul class="deal-list">
+                  <li class="deal-sub-heading">
+                    <h6>Deal Includes:</h6>
+                  </li>
+                  <li class="deal-item left-icon car font_icon">5 Days Trip <span> Hotel Included</span></li>
+                  <li class="deal-item plane font_icon">Airoplane Bill Included</li>
+                  <li class="deal-item calender font_icon">Daily Places Visit</li>
+                </ul>
+                <div class="deal-btn">
+                  <a href="" class="deal-link" title="Make A Reservation">Make A Reservation</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- offer section end here -->
+      <!-- discover section start here -->
+      <section class="discover">
+        <div class="wrapper">
+          <figure class="discover-fig">
+            <img src="assets/images/about-left-image.jpg" alt="Discover Image">
+          </figure>
+          <div class="discover-content">
+            <h4 class="discover-heading">Discover More About Our Country</h4>
+            <p class="discover-description">Lorem Ispum dolor sit amet, consecteture adipiscing elit, sed do eiusmad
+              tempor incididunt ut labore.</p>
+            <ul class="discover-counter">
+              <li class="counter-1">
+                <span class="country-counter" data-discover="150.640+">0</span>
+                <h5 class="counter-heading">Total Guest Yearly</h5>
+              </li>
+              <li class="counter-1">
+                <span class="country-counter" data-discover="175.000+">0</span>
+                <h5 class="counter-heading">Amazing Accomoditations</h5>
+              </li>
+              <li class="counter-2 border-1">
+                <span class="country-counter" data-discover="12.560+">0</span>
+                <h5 class="counter-heading">Amazing Places</h5>
+              </li>
+              <li class="counter-2 border">
+                <span class="country-counter" data-discover="240.580+">0</span>
+                <h5 class="counter-heading">Different Check-Ins Yearly</h5>
+              </li>
+            </ul>
+            <p class="discover-description">Lorem ispum dolor sit amet, consecteture adipiscing elit, sed do eiusmad
+              tempor incididunt ut labore. Lorem ispum dolor sit amet, consecteture adipiscing elit, sed do eiusmad
+              tempor incididunt ut labore.</p>
+            <div class="More-btn">
+              <a href="#FIXME" title="Discover More">Discover More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- discover section end here -->
+      <!-- location section start here -->
+      <section class="location">
+        <div class="wrapper">
+          <div class="content-wrap">
+            <h3 class="location-heading">Best Location In Caribbeans</h3>
+            <p class="location-description">Lorem ispum dolor sit amet, consecteture adipiscing elit, sed do eiusmad
+              tempor
+              incididunt ut labore</p>
+          </div>
+          <div class="tab-image">
+            <ul class="tab-image-content">
+              <li class="image-item" data-target="havana">
+                <div class="tab-wrapp">
+                  <figure class="tab-fig">
+                    <img src="assets/images/cities-01.jpg" alt="havan">
+                  </figure>
+                  <div class="image-text">
+                    <h4 class="city-title">Havana</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores obcaecati molestias temporibus
+                      sunt hic! Vitae eos tempora nam culpa cumque?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores obcaecati molestias temporibus
+                      sunt hic! Vitae eos tempora nam culpa cumque?</p>
+                  </div>
+                </div>
+                <span class="scan icon-heading">Havana <span>population: 2M</span></span>
+              </li>
+              <li class="image-item" data-target="kingstone">
+                <div class="tab-wrapp">
+                  <figure class="tab-fig">
+                    <img src="assets/images/cities-02.jpg" alt="Kingston">
+                  </figure>
+                  <div class="image-text">
+                    <h4 class="city-title">Kingston</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores obcaecati molestias temporibus
+                      sunt hic! Vitae eos tempora nam culpa cumque?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores obcaecati molestias temporibus
+                      sunt hic! Vitae eos tempora nam culpa cumque?</p>
+                  </div>
+                </div>
+                <span class="scan icon-heading">Kingston<span>population: 2M</span></span>
+              </li>
+              <li class="image-item" data-target="george">
+                <div class="tab-wrapp">
+                  <figure class="tab-fig">
+                    <img src="assets/images/cities-03.jpg" alt="George">
+                  </figure>
+                  <div class="image-text">
+                    <h4 class="city-title">George</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores obcaecati molestias temporibus
+                      sunt hic! Vitae eos tempora nam culpa cumque?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores obcaecati molestias temporibus
+                      sunt hic! Vitae eos tempora nam culpa cumque?</p>
+                  </div>
+                </div>
+                <span class="scan icon-heading">George<span>population: 2M</span></span>
+              </li>
+              <li class="image-item" data-target="santa">
+                <div class="tab-wrapp">
+                  <figure class="tab-fig">
+                    <img src="assets/images/cities-04.jpg" alt="Santa">
+                  </figure>
+                  <div class="image-text">
+                    <h4 class="city-title">Santa</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores obcaecati molestias temporibus
+                      sunt hic! Vitae eos tempora nam culpa cumque?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores obcaecati molestias temporibus
+                      sunt hic! Vitae eos tempora nam culpa cumque?</p>
+                  </div>
+                </div>
+                <span class="scan icon-heading">Santa<span>population: 2M</span></span>
+              </li>
+            </ul>
+            <ul class="map-icon-list">
+              <li class="scan-icon scan filter-active" data-target="havana">map Icon</li>
+              <li class="scan-icon scan" data-target="george">map Icon</li>
+              <li class="scan-icon scan" data-target="santa">map Icon</li>
+              <li class="scan-icon scan" data-target="kingstone">map Icon</li>
+            </ul>
+            <div class="place-btn">
+              <a href="#FIXME" class="place-link" title="Discover All Places">Discover All Places</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- location section end here -->
+      <!-- book section start here -->
+      <section class="book-section about-wrap">
+        <div class="wrapper">
+          <div class="book-content">
+            <h3 class="book-heading">are you looking to travel ?</h3>
+            <span class="book-reserve">Make A Reservation By Clicking The Button</span>
+          </div>
+          <div class="book-btn">
+            <a href="#FIXME" class="reserve-btn" title="Book Yours Now">Book Yours Now</a>
+          </div>
+        </div>
+      </section>
+      <!-- book section end here -->
     </main>
     <!--main section end-->
 
     <!--footer section start-->
-    <footer>      
-
+    <footer>
+      <p class="copy">Copyright &#169; WoOx Travel company. All rights reserved.<a href="#FIXME" title="TemplateMo"
+          class="copy-link">Design: TemplateMo</a></p>
     </footer>
     <!--footer section end-->
+    <!-- scroll to up start here -->
+    <div class="scroll-up">
+      <span class="scroll-too" title="Scroll Up">scroll too</span>
+    </div>
+    <!-- scroll to up end here -->
 
   </div>
   <!--container end-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="assets/js/script.js"></script>
 </body>
+
 </html>
